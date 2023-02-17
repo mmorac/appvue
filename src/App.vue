@@ -1,16 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="https://www.pngkey.com/png/full/137-1377102_happy-dog-companion-dog.png" style="height: 15em;">
+  <NavbarComponent></NavbarComponent>
+  <router-view></router-view>
+  <FooterComponent></FooterComponent>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+//import MainComponent from './components/MainComponent.vue'
+import NavbarComponent from './components/NavbarComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    NavbarComponent,
+    FooterComponent
+}
 }
 </script>
 
