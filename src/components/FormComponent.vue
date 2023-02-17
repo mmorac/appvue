@@ -1,5 +1,8 @@
 <template>
     <div class="formulario">
+        <p>
+            Ingresa el código de error que quieres ver y dale clic a buscar
+        </p>
         <div class="input-group mb-3 contenedorform">
             <input type="text" class="form-control inputcodigo" placeholder="Error HTTP" aria-label="Error HTTP" aria-describedby="boton" v-model="codigo">
             <button class="btn btn-outline-secondary" type="button" id="boton" @click="submit">Buscar</button>
